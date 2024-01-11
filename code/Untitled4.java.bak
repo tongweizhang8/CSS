@@ -1,0 +1,24 @@
+/*
+String属于引用数据类型，翻译为字符串
+声明string类型变量时，使用一对“”
+String可以和8种基本数据变量做运算，且运算只能是连接运算+
+
+*/
+class StringTest 
+{
+	public static void main(String[] args) 
+	{
+		String s1 ="Hello World";
+		System.out.println("Hello World!");
+		String s2="a";
+		String s3="";
+
+		char c ="";
+		//char c=''编译不通过
+
+		int number = 1001;
+		String numberStr="学号：";
+		String info = numberStr + number;
+		system.out.println(info);
+	}
+}
